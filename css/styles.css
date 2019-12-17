@@ -8,4 +8,45 @@ html{
 }
 body{
     font-family: "Roboto", "Arial", sans-serif;
+    background-color: #c9f8fe;
+}
+.container{
+    max-width: 800px;
+    margin: 100px auto;
+}
+.site-articles{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+.press-page{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.press-page__main{
+    color: #fff;
+}
+.main__heading{
+    font-size: 30px;
+    margin: 0;
+}
+.main__link{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #69a790;
+    opacity: 0.9;
+    color: #fff;
+
 }
