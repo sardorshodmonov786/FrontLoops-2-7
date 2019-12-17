@@ -11,7 +11,7 @@ body{
     background-color: #c9f8fe;
 }
 .container{
-    max-width: 800px;
+    max-width: 880px;
     margin: 100px auto;
 }
 .site-articles{
@@ -20,7 +20,7 @@ body{
     background-color: #fff;
 }
 .press-page{
-    width: 40%;
+    width: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,16 +37,69 @@ body{
     margin: 0;
 }
 .main__link{
-    width: 55%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
-    padding: 20px;
+    padding: 15px 25px;
     border-radius: 30px;
     text-decoration: none;
     background-color: #69a790;
     opacity: 0.9;
     color: #fff;
-
+}
+.articles{
+    width: 55%;
+    padding: 20px 30px;
+}
+.articles__heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.main__items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+}
+.years{
+    margin: 0;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 20px;
+}
+.years--active{
+    color: black;
+}
+.main__item{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 30px;
+}
+.main__icon{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.main__text{
+    flex-grow: 1;
+    font-size: 15px;
+}
+.main-date{
+    display: flex;
+    align-items: center;
+}
+.day{
+    margin: 0;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.date__month-year {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
 }
